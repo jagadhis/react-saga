@@ -1,4 +1,6 @@
 .Container {
+  display: flex;
+  flex-direction: column;
   background-color: lightblue;
   margin: 20px;
   border-radius: 10px;
@@ -8,8 +10,6 @@
 
 .Button {
   padding: 10px;
-  display: flex;
-  justify-content: space-around;
 }
 
 .btn-1 {
