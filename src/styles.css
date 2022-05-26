@@ -5,3 +5,21 @@
   align-items: center;
   width: 20%;
 }
+
+.Button {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-1 {
+  border: 5px white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn-2 {
+  border: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}

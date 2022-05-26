@@ -14,9 +14,13 @@ const Counter = () => {
   return (
     <div className="Container">
       <h3>{`count:${count}`}</h3>
-      <div>
-        <button onClick={increment}> Increment </button>
-        <button onClick={decrement}> Decrement</button>
+      <div className="Button">
+        <button className="btn-1" onClick={increment}>
+          Increment
+        </button>
+        <button className="btn-2" onClick={decrement}>
+          Decrement
+        </button>
       </div>
     </div>
   );
