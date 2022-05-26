@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 
+const container = {
+  color: "lightblue",
+};
 const Counter = () => {
   const [count, setcount] = useState(0);
   const increment = () => {
@@ -11,9 +14,9 @@ const Counter = () => {
   };
 
   return (
-    <div style={{ backgroundcolor: "grey" }}>
+    <div style={container}>
       <h3>{`count:${count}`}</h3>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div className="content">
         <button onClick={increment}> Increment </button>
         <button onClick={decrement}> Decrement</button>
       </div>
