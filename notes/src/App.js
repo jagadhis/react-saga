@@ -17,11 +17,18 @@ export default function App() {
   }
 
   return (
-    <div>
-      <h1>My Notes</h1>
-      <input type="text" value={newNote} onChange={handleChange} />
+    <div className="App">
+      <h1 className="head">My Notes</h1>
+      <input
+        className="input"
+        type="text"
+        value={newNote}
+        onChange={handleChange}
+      />
 
-      <button onClick={addNote}>Save</button>
+      <button className=" btn-1" onClick={addNote}>
+        Save
+      </button>
       <Notes data={list} />
     </div>
   );
